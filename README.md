@@ -1,43 +1,43 @@
-                                             PRODUCTO UNIDAD PARCIAL 3
+                                                              MÁQUINAS DE ESTADO
 
 
 1.PLANTEAMIENTO DEL PROBLEMA
 
-Para la realización de varios circuitos que poseen un modelo de comportamiento dependiente de una señal anterior y presente a la vez, es normal hacer referencia a dispositivos como flip-flops para almacenar información independiente de los distintos cambios de cierta entrada.
-
-Sin embargo la utilización de máquinas de estado finitos de igual manera son un buen instrumento para modelar circuitos digitales con memoria ya que representan el comportamiento de un sistema con entradas y salidas en donde las salidas dependen no solo de las señales de entradas actuales, sino también de las anteriores y sirven de intermediarios en esta relación de entradas y salidas, haciendo que el historial de señales de entrada determine para cada instante un estado para la máquina; de esta forma la salida depende únicamente del estado y las entradas actuales.
-
-En base a estos conceptos se pretende realizar el análisis de varios ejercicios que permiten el desarrollo y entendimiento de las tablas de transición para diferentes cadenas de entrada como la creación de los diagramas de estado que describen el comportamiento establecido de forma visual, además del plantemiento de dos problemas apicados a máquinas de estado finitas.
-
+Se denomina máquina de estados a un modelo de comportamiento de un sistema con entradas y salidas en donde las salidas dependen 
+no solo de las señales de entradas actuales, sino también de las anteriores. Tienes diversas aplicaciones en las que se puede utilizar como por ejemplo la realización de circuitos secuenciales. Para nuestro caso utilizaremos este método para resolver diversos problemas planteados.
 
 2.OBJETIVOS
 
 Objetivo general
 
-- Implementar un circuito sumador – restador, para dos números de 8 bits, mostrando el resultado en displays de 7 segmentos.
+- Diseñar diagramas de de estado a partir de tablas propuestas, complementando su aplicación en una máquina expendedora de bebidas y en un sistema de riego automático.
 
 Objetivo específicos
 
--	Visualizar el signo del resultado (en el caso que el resultado sea negativo).
+-Investigar sobre circuitos secuenciales que se puedan implementar por medio de máquinas de estado.
 
-- Multiplexar las salidas para poder escoger que resultado se desea ver, ya sea suma o resta en los displays de 7 segmentos.
-
-- Comprobar el funcionamiento del diseño del contador mediante la simulación en proteus e implementada en constructor virtual (laboratorio virtual).
+-Desarrollar el diseño de las máquinas de estado mediante grafos y utilizar en la aplicación de la máquina expendedora.
 
 
 3.ESTADO DEL ARTE
 
-En 2019 LOAIZA AGUILAR ANGEL DANILO de la UNIDAD ACADÉMICA DE INGENIERÍA CIVIL CARRERA DE INGENIERÍA DE SISTEMAS ubicada en Machala-Ecuador diseño y construcción de un circuito electrónico que permita realizar las dos operaciones principales que son la suma y la resta entre dos palabras digitales, siendo cada palabra digital un número como máximo de dos cifras. Para la obtención de las operaciones matemáticas requeridas en el presente proyecto he utilizado como método principal la suma binaria, realizando todas las tablas de verdad necesarias para controlar el correcto funcionamiento del circuito, la elección de los datos a mostrar se ha realizado con la ayuda de multiplexores, he utilizado una memoria SRAM para almacenar los resultados, la visualización de la primera palabra digitales, de la segunda palabra digital, del resultado obtenido en la operación y del datos almacenado se presentara en números confeccionados a base de cinta led de alta luminosidad que requieren de un voltaje mayor al del circuito, es por ello que he utilizado transistores en unión bipolar para lograr esta visualización, para construir el circuito físico se recomienda utilizar los circuitos integrados que estén en buen estado ya que si alguno esta imperfecto podría ocasionar que no obtengan los resultados esperados, también se recomienda leer el voltaje máximo que soporta cada uno de los circuitos integrados en sus respectivas hojas de datos y utilizar la fuente de energía adecuada. (LOAIZA AGUILAR ANGEL DANILO, 2019, p.1) [1].
+En 2017 SANTIAGO GONZALEZ de la UNIDAD ACADÉMICA SANTIAGO DE CHILE DE INGENIERÍA EN CIENCIAS ECONOMICAS diseño la propia tienda On-Line tenga un carácter comercial para la empresa que vende los productos, y no sólo como un lugar donde realizar compras. Para ello, se tomaron decisiones como la de incluir información general de la empresa en las pantallas iniciales, inclusión de banner en la página, permitir que cualquier usuario pudiera navegar por el catálogo y los productos, pedir información sobre ellos, etc. Además, el hecho de registrarse en la web tendría otros añadidos para los usuarios aparte del propio de poder comprar como serían la descarga del catálogo completo o de partes de él en un formato fácilmente portable como es el PDF con la utilización de diagramas de estado (SANTIAGO GONZALEZ, 2017, p.1) [1].
 
-REYES ERAZO, CRISTHIAN EDUARDO de la FACULTAD DE EDUCACIÓN TÉCNICA PARA EL DESARROLLO CARRERA DE INGENIERÍA EN TELECOMUNICACIONES de la Universidad Católica Santiago de Guayaquil El presente trabajo de titulación consiste en realizar la evaluación de las plataformas de simulación SIMULINK y QUARTUS II para la asignatura de Sistemas Digitales. La idea del trabajo es fundamental y formativa, porque existe otra herramienta de simulación que no se ha considerado en el programa de estudios de la asignatura Sistemas Digitales I y II. Por lo general, en estas asignaturas los estudiantes utilizan Isis Proteus y Multisim, ambas plataformas son amigables. En la búsqueda de información se pudo constatar que Simulink de MatLab, también permite desarrollar simulaciones de sistemas digitales. Los estudiantes de V Ciclo de Telecomunicaciones, Electrónica en Control y Automatismo y Eléctrico-mecánico pueden hacer uso del presente trabajo como guía y así profundizar más en el tema usando Simulink. Quartus II, es una plataforma que permite realizar programación en VHDL, diseño esquemático y diseño por máquinas de estados y esto a su vez se implementa en la FPGA de Altera disponible en el laboratorio de electrónica. Cabe mencionar que tanto Simulink como Quartus II, realizan múltiples aplicaciones para aplicaciones en telecomunicaciones. (REYES ERAZO, CRISTHIAN EDUARDO, 2019, p.1) [2]. 
+En 2018 WILSON BALDEÓN Y VERONICA MORA de la ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO ubicado en Riobamba-Ecuador diseño un circuito secuencial sincrónico con los latch básicos, los latch asincrónicos y los ÁLSÁRSV, que son los elementos fundamentales a partir de los cuales se construyen máquinas secuenciales sincrónicas, el siguiente paso es el estudio de las técnicas de análisis y diseño de máquinas o circuitos secuenciales sincrónicos y asincrónicos. Una máquina secuencial, en general, se caracteriza porque los valores que se encuentran presentes en sus salidas, en algún instante, dependen no solamente de los valores que se encuentran presentes en sus entradas en ese instante, sino también, de todos los valores que estuvieron en esas entradas, es decir, de la historia pasada de esas entradas, valga la redundancia. Una máquina se llama secuencial porque, tiene que pasar, paso a paso, por un conjunto de estados. Si el paso de un estado a otro esta sincronizado por una señal de reloj, la máquina se llama secuencial sincrónica. Si la máquina no tiene una señal que sincronice los cambios de estado sino más bien los cambios de estado son realizados en el instante que alguna de sus señales de entrada ha cambiado, la máquina se llama secuencial asincrónica.  (WILSON BALDEÓN Y VERONICA MORA, 2018, p.1) [2].
+
 
 4.MARCO TEÓRICO
 
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/marco%20teorico%201.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%201.png)
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/marco%20teorico%202.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%202.png)
 
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%203.png)
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%204.png)
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%205.png)
 
 5.DIAGRAMAS
 
@@ -72,25 +72,9 @@ REYES ERAZO, CRISTHIAN EDUARDO de la FACULTAD DE EDUCACIÓN TÉCNICA PARA EL DES
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/14.jpeg)
 
 
-•Diagramas eléctricos.
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
-
-
 
 6.LISTA DE COMPONENTES
 
-- Simulador Proteus version 8.9.
-- Laboratorio virtual Tinkercad.
-- Compuertas NOR, OR, AND, X-OR.
-- 2 comparadores 74LS85
-- 6 sumadores 74LS283
-- 4 multiplexores 74LS157
-- 7 decodificadores 74LS48
-- 7 Displays 7 segmentos (cátodo común).
-- 2 Dip-switch de 8 entradas
-- 1 Dip- switch de 2 entradas
-- 4 inversores 74LS04
 
 
 
@@ -101,74 +85,93 @@ REYES ERAZO, CRISTHIAN EDUARDO de la FACULTAD DE EDUCACIÓN TÉCNICA PARA EL DES
 
 8.EXPLICACIÓN DEL DISEÑO
 
-Diagrama de bloques del circuito a diseñar:
+1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
 
-Entradas
 
-Variables de entrada:
+Desarrollo:
 
-Números A y B cada uno de 8 bits donde A0 y B0 son los menos significativos respectivamente:
+Para construir el diaframa se parte de la primera fila de la tabla ya que significa nuestro estado inicial y estado actual, entonces cunado la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente
 
-A7,A6,A5,A4,A3, A2, A1, A0  ;  B7,B6,B5,B4,B3, B2, B1,B0
+diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%201.png)
+2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
-Las operaciones están codificadas con un bit de manera que tengamos las dos operaciones: 
+tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%202.PNG)
+Desarrollo:
 
-Variables de salida:
+Como en el primer enunciado partimos del estado (S0) que es nuestro estado inicial. Para el siguiente estado que toma la maquina cuando toma el valor 
+de a, en este caso S0, se genera una transición y colocamos la entrada y su correspondiente salida. Seguimos con el siguiente estado, deonde la maquina 
+pasa de S0 a S3 ya que cuando toma el valor de B obtiene este estado, se toma en cuenta la transición y se realiza el mismo procedimiento para los demas estados. Y nos queda el siguiente diagrama.
 
-Signo, E8,E7,E6,E5,E4,E3,E2,E1,E0
+diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%203.png)
+3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
 
-Operación Suma
+diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
 
-Para realizar la operación de suma de dos números de 8 bits utilizamos 2 sumadores conectados el primer acarreo de salida al acarreo de entrada del siguiente sumador para obtener un sumador de 8 bits 
+Para construir la tablea, primero observamos el estado de inicio que es S0, el cual representa a nuestro primer estado, luego colocamos en el primera fila y columna de nuestra tabla de de estados. Ahora tomamos en cuenta el camino que nos presentan las flechas de entrada y salida. Para el caso de los estados actuales tomamos en cuenta los valores que se encuentran en el medio de las flechas, ya que representan nuestros estados actuales. Y nuestra tabla nos queda de la siguiente forma:
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%204.png)
+tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
 
-Operación resta
+4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).
 
-Para realizar la operación resta primero usamos dos comparadores de 4 bits conectados de forma que nos de uno de 8 bits que utilizaremos en la siguiente etapa
+Realizamos una tablar para obtener uestras variables que son las 3 diferentes monedas que podemos ingresar a la máquina:
+Entonces asignamos variables a los diferentes valores en binario de la tabla anterior:
+B: cero centavos en binario (000)
+C: 5 centavos en binario (001)
+D: 10 centavos en binario (010)
+E: 15 centavos en binario (010)
+F:20 centavos en binario (100)
+G: Para más de 25 Ctvs
+Ahora en nuestras salidas si D está encendido habrá cambio para el usuarion en centimos, y si D está apagado no abrá cambió.
+También si C está encendido habrá bebida, y si C está apagado no abrá bebida.
+Ahora procedemos a realizar la tabla de transición con nuestros estados de transición y de salida.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%205.png)
+Tomamos en cuenta la entraga de las bebidas con la siguiente tabla
 
-A continuación, se utiliza 8 multiplexores 2 a 1 para la primera comparación A<B donde entra al selector del multiplexor presentado en el lado izquierdo y así obtener el número mayor cuando sea el caso
-Y lo mismo con la segunda comparación A>B para obtener el número menor
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%206.png)
+5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
+a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
+i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
+ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra está seca).
+b. Para la implementación del circuito se dispone de las siguientes entradas:
+i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
+ii. R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1 No hay restricciones: R=0
+iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
+iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
+c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.
 
-Una vez ordenado el número mayor procedemos a utilizar dos sumadores de 4 bits conectados de forma que obtengamos uno de 8 bits donde las entradas será el número mayor sumado al complemento del número menor con un acarreo inicial de 1 para así obtener la resta
+Desarrollo:
+Tenemos como condición que la bomba solo se activará cuando la tierra se encuentra seca. Tomando en cuenta también cuando esté húmeda.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%207.png)
+Nuestro diseño tendrá una restricción para que en verano se active en la noche. En el esto del año se puede activar la bomba durante todo el día.
 
-Signo
-Para el signo utilizamos una compuerta And donde vemos que si el número A es menor a B y en la operación Op está en resta entonces este se activara indicándonos el signo
+Nuestras variables serán:
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%208.png)
+S = 1 (tierra seca)
 
-Salidas con multiplexores
+S = 0 (tierra húmeda)
 
-Para presentar las salidas utilizamos 10 multiplexores 2 a 1 conectados de la siguiente manera donde S son los bits del resultado de la suma y R son los bits del resultado de la resta controlados por OP que es la operación seleccionada y así indicándonos la respuesta de la operación que deseamos
+Día: D=1
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%2010.png)
+Noche: D=0
 
-Transformación de binario a BCD 
+Vacío: V=1
 
-Para esta última etapa el resultado obtenido máximo será de 9 bits más el signo para presentar este número en displays es necesario transformar el binario a BCD para esto usamos el método de transformación por desplazamiento el cual tiene de base desplazar bit a bit desde el más significativo hasta el menos significativo comparando si es mayor o igual a 5 si no lo es desplaza un bit caso contrario se suma 3 y a la respuesta se le compara igual que antes así hasta llegar al bit menos significativo
-Se utiliza circuitos integrados de comparados sumadores y NOR para dicha transformación los comparadores son la entrada de los 3 bits más significativos comparados con el numero 5 si es mayor o igual se suma 3 en el siguiente sumador y se desplaza un bit al siguiente comparador con las salidas del sumados a las entradas del comparador donde queda un bit flotando que se utilizara más adelante para seguir desplazando las centenas de la misma forma y así obtener la transformación
+Hay agua: V=0
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%2011.png)
+Bomba funcionando: B=1
 
-Salida en displays 
+Bomba apagada B=0
 
-Para esto se utiliza 4 displays y 3 decodificadores de BCD a 7 segmentos el primer display es el signo conectado directamente el segundo display con su respectivo codificador nos indica las centenas el tercer display nos indica las decenas y el cuarto nos indica las unidades todos estos decodificadores están conectados a las salidas de la transformación binaria a BCD
+Todas estas variables van a depender de si tienen restricciones previas.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/dise%C3%B1o%2012.png)
+tabla
+
                  
 9.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
@@ -214,22 +217,20 @@ Suma de 11111111 + 11111111 (255 + 255).
 
 11.CONCLUSIONES
 
-•	Las máquina de estados facilita la visualización de diferentes procesos se suelen usar para seguir los estados de un proceso y su evolución dependiendo de factores internos o externos
+•	La implementación del circuito Sumador/Restador nos ayudó a comprender no solo el funcionamiento de los integrados sumadores como el 74HC283, ya que también observamos como mediante   el   uso   de   los   elementos   MSI   podemos   llevar   a   cabo   procesos   más complejos de una forma más rápida y sencilla que al utilizar elementos SSI. Es por ello que se utilizó multiplexores y comparadores que nos ayudaron a reducir el tamaña del circuito.
+  
+•	Mientras más bits de código se quiera mostrar en displays, se requiere de un proceso más complicado, y en la vida real no existe integrados decodificadores de código binario a BCD.
 
-•	Los diagramas de estado de los diferentes ejercicios nos facilitan e indican el conjunto de estados que lleva la secuencia de pasos que tomara el ejercicio
-
-•	Las tablas de los diferentes ejercicios no son las mismas ya que las entradas y salidas son distintas para generar la tabla de transiciones se tiene en cuenta el estadon actual y el proximo estado
-
-•	La aportacion nos permite implementar mediante una simulacion la solucion presentada teoricamente mostrando la capacidad de simplificacion de elementos con maquinas de estados ya que con circuitos combinacionales seria un circuito demasiado grande con una gran dificultad
+•	En la realización de la simulación se pudo ratificar el funcionamiento de nuestro circuito sumador – restador, de entrada, tenemos dos números de 8 bits, lo cual nos dará una salida de hasta 9 bits en la mayor suma que se puede realizar.
 
 
 12.RECOMENDACIONES
 
-•	Tener en cuenta que maquina de estado vamos a diseñar ya sea de mearly o moore y tener en claro su funcionamiento para su proxima utilizacion y diseño
+•	Debemos ser ordenados para armar el circuito para que si tenemos alguna falla podamos encontrar rápido el error.
 
-•	Identificar todos los estados presentes en los ejercicios y descartar tales estados que no influyen en la solucion del mismo 
+•	Se recomienda no mezclar integrados de tecnología TTL con tecnología Cmos ya que sus diseños admiten diferentes valores de voltajes y corriente, en este diseño de lo realizo debido a la escasez de modelos de integrados en la plataforma de Tinkercad. 
 
-•	Se recomienda tener conocimientos previos sobre mauinas de estado y flip-flops, en conjunto con el datasheet de cada elemento que se usa en el circuito. 
+•	Se recomienda tener conocimientos previos sobre circuitos sumadores y sus tablas de verdad, en conjunto con el datasheet de cada elemento que se usa en el circuito. 
 
 •	Es preciso planificar un cronograma con diagramas de Grant en las diferentes aplicaciones que existen y para el desarrollo se recomienda el software Project. 
 
@@ -237,7 +238,7 @@ Suma de 11111111 + 11111111 (255 + 255).
 
 13.CRONOGRAMA
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/cronograma.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/cronograma.JPG)
 
 
 14.BIBLIOGRAFÍA
