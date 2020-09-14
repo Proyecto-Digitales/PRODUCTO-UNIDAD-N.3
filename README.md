@@ -32,7 +32,7 @@ REYES ERAZO, CRISTHIAN EDUARDO de la FACULTAD DE EDUCACIÓN TÉCNICA PARA EL DES
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/marco%20teorico%201.png)
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%202.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/marco%20teorico%202.png)
 
 
 5.DIAGRAMAS
