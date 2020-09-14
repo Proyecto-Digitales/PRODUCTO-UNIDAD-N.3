@@ -87,18 +87,18 @@ En 2018 WILSON BALDEÓN Y VERONICA MORA de la ESCUELA SUPERIOR POLITECNICA DE CH
 
 1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.
 
-tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%201.PNG)
 
 
 Desarrollo:
 
 Para construir el diaframa se parte de la primera fila de la tabla ya que significa nuestro estado inicial y estado actual, entonces cunado la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente
 
-diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
 
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
-tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%203.PNG)
 
 Desarrollo:
 
@@ -106,11 +106,11 @@ Como en el primer enunciado partimos del estado (S0) que es nuestro estado inici
 de a, en este caso S0, se genera una transición y colocamos la entrada y su correspondiente salida. Seguimos con el siguiente estado, deonde la maquina 
 pasa de S0 a S3 ya que cuando toma el valor de B obtiene este estado, se toma en cuenta la transición y se realiza el mismo procedimiento para los demas estados. Y nos queda el siguiente diagrama.
 
-diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.2.jpeg)
 
 3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
 
-diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%205.PNG)
 
 Para construir la tablea, primero observamos el estado de inicio que es S0, el cual representa a nuestro primer estado, luego colocamos en el primera fila y columna de nuestra tabla de de estados. Ahora tomamos en cuenta el camino que nos presentan las flechas de entrada y salida. Para el caso de los estados actuales tomamos en cuenta los valores que se encuentran en el medio de las flechas, ya que representan nuestros estados actuales. Y nuestra tabla nos queda de la siguiente forma:
 
