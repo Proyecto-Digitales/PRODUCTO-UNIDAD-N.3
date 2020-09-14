@@ -214,20 +214,22 @@ Suma de 11111111 + 11111111 (255 + 255).
 
 11.CONCLUSIONES
 
-•	La implementación del circuito Sumador/Restador nos ayudó a comprender no solo el funcionamiento de los integrados sumadores como el 74HC283, ya que también observamos como mediante   el   uso   de   los   elementos   MSI   podemos   llevar   a   cabo   procesos   más complejos de una forma más rápida y sencilla que al utilizar elementos SSI. Es por ello que se utilizó multiplexores y comparadores que nos ayudaron a reducir el tamaña del circuito.
-  
-•	Mientras más bits de código se quiera mostrar en displays, se requiere de un proceso más complicado, y en la vida real no existe integrados decodificadores de código binario a BCD.
+•	Las máquina de estados facilita la visualización de diferentes procesos se suelen usar para seguir los estados de un proceso y su evolución dependiendo de factores internos o externos
 
-•	En la realización de la simulación se pudo ratificar el funcionamiento de nuestro circuito sumador – restador, de entrada, tenemos dos números de 8 bits, lo cual nos dará una salida de hasta 9 bits en la mayor suma que se puede realizar.
+•	Los diagramas de estado de los diferentes ejercicios nos facilitan e indican el conjunto de estados que lleva la secuencia de pasos que tomara el ejercicio
+
+•	Las tablas de los diferentes ejercicios no son las mismas ya que las entradas y salidas son distintas para generar la tabla de transiciones se tiene en cuenta el estadon actual y el proximo estado
+
+•	La aportacion nos permite implementar mediante una simulacion la solucion presentada teoricamente mostrando la capacidad de simplificacion de elementos con maquinas de estados ya que con circuitos combinacionales seria un circuito demasiado grande con una gran dificultad
 
 
 12.RECOMENDACIONES
 
-•	Debemos ser ordenados para armar el circuito para que si tenemos alguna falla podamos encontrar rápido el error.
+•	Tener en cuenta que maquina de estado vamos a diseñar ya sea de mearly o moore y tener en claro su funcionamiento para su proxima utilizacion y diseño
 
-•	Se recomienda no mezclar integrados de tecnología TTL con tecnología Cmos ya que sus diseños admiten diferentes valores de voltajes y corriente, en este diseño de lo realizo debido a la escasez de modelos de integrados en la plataforma de Tinkercad. 
+•	Identificar todos los estados presentes en los ejercicios y descartar tales estados que no influyen en la solucion del mismo 
 
-•	Se recomienda tener conocimientos previos sobre circuitos sumadores y sus tablas de verdad, en conjunto con el datasheet de cada elemento que se usa en el circuito. 
+•	Se recomienda tener conocimientos previos sobre mauinas de estado y flip-flops, en conjunto con el datasheet de cada elemento que se usa en el circuito. 
 
 •	Es preciso planificar un cronograma con diagramas de Grant en las diferentes aplicaciones que existen y para el desarrollo se recomienda el software Project. 
 
