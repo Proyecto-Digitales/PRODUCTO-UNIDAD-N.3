@@ -18,6 +18,8 @@ Objetivo específicos
 
 - Desarrollar el diseño de las máquinas de estado mediante diagramas y tablas de estado.
 
+- Implementar un ejemplo sencillo sobre una máquina de estado.
+
 
 3.ESTADO DEL ARTE
 
