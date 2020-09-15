@@ -335,6 +335,8 @@ Floyd, T. (2006). Fundamentos de sistemas digitales. Madrid: Pearson.
 
 Siliceo, R. (2018). Maquinas de estadp, diseño de grafos. Ciudad de Mexico.
 
+[4]	(SANTIAGO GONZALEZ, 2017, p.1) [Available: https://sites.google.com/site/doc-sities-máquinadeestado
+
 
 
 
