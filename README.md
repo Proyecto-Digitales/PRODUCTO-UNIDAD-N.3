@@ -19,7 +19,7 @@ Objetivo específicos
 - Desarrollar el diseño de las máquinas de estado mediante grafos.
 
 
-3.ESTADO DEL ARTE
+*3.ESTADO DEL ARTE
 
 En 2017 SANTIAGO GONZALEZ de la UNIDAD ACADÉMICA SANTIAGO DE CHILE DE INGENIERÍA EN CIENCIAS ECONOMICAS diseño la propia tienda On-Line tenga un 
 carácter comercial para la empresa que vende los productos, y no sólo como un lugar donde realizar compras. Para ello, se tomaron decisiones como 
