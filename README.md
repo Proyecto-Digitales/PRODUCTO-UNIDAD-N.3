@@ -1,4 +1,4 @@
-                                                              MÁQUINAS DE ESTADO
+                                                        DIAGRAMAS DE MÁQUINAS DE ESTADO
 
 
 1.PLANTEAMIENTO DEL PROBLEMA
@@ -10,13 +10,13 @@ no solo de las señales de entradas actuales, sino también de las anteriores. T
 
 Objetivo general
 
-- Diseñar diagramas de de estado a partir de tablas propuestas, complementando su aplicación en una máquina expendedora de bebidas y en un sistema de riego automático.
+- Diseñar diagramas y tablas de de estado a partir de los datos propuestos en los ejerciciosos.
 
 Objetivo específicos
 
 -Investigar sobre circuitos secuenciales que se puedan implementar por medio de máquinas de estado.
 
--Desarrollar el diseño de las máquinas de estado mediante grafos y utilizar en la aplicación de la máquina expendedora.
+-Desarrollar el diseño de las máquinas de estado mediante grafos.
 
 
 3.ESTADO DEL ARTE
