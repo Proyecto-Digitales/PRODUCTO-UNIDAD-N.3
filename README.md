@@ -227,7 +227,7 @@ Todas estas variables van a depender de si tienen restricciones previas.
 
 Realizamos la tabla de cambio de estados:
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Tabla%20final.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Ultimo.PNG)
 
 
 Tabla 6. Ejercicio 5
