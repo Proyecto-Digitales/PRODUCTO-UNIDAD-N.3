@@ -102,7 +102,7 @@ Diagrama. Ejercicio 1
 
 Ejemplo: con 1000110
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/ultima%20tabla.PNG)
 
 Tabla ejemplo
 
