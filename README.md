@@ -98,12 +98,18 @@ Mediante esta mecánica seguimos con los siguientes estados para construir nuest
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
 
-Diagrama. Ejercicio 1  
+Diagrama. Ejercicio 1
+
+Ejemplo: con 1000110
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
+
+Tabla ejemplo
 
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. 
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%203.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/ultima%20tabla.PNG)
 
 Tabla 2. Ejercicio 2
 
@@ -117,6 +123,12 @@ Y nos queda el siguiente diagrama.
 diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.2.jpeg)
 
 Diagrama Ejercicio 2
+
+Ejemplo para abbccc
+
+diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/ultima%20tabla2.PNG)
+
+Tabla ejemplo
 
 3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
 
