@@ -75,7 +75,9 @@ Diagrama de estado - aporte
 
 6.LISTA DE COMPONENTE
 
-- Diseñador de diagramas online creatly
+- Diseñador de diagramas online creatly.
+
+- Plataforma tinkercad.
 
 
 7.EXPLICACIÓN DEL DISEÑO
