@@ -29,56 +29,27 @@ En 2018 WILSON BALDEÓN Y VERONICA MORA de la ESCUELA SUPERIOR POLITECNICA DE CH
 4.MARCO TEÓRICO
 
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%201.png)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%202.png)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%203.png)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%204.png)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/marco%20teorico%205.png)
+Falta ¡¡¡¡¡¡¡
 
 5.DIAGRAMAS
 
 •Diagramas de bloques.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/2.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/3.jpeg)
 
 •Diagramas esquemáticos.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/4.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/5.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/6.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/7.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/8.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/9.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/10.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/11.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/12.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/13.jpeg)
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/14.jpeg)
 
 
 
-6.LISTA DE COMPONENTES
 
+6.LISTA DE COMPONENTE
+
+- Diseñador de diagramas online creatly
 
 
 
 7.MAPA DE VARIABLES
+
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/mapa_Variables_2.PNG)
 
@@ -92,7 +63,7 @@ tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob
 
 Desarrollo:
 
-Para construir el diaframa se parte de la primera fila de la tabla ya que significa nuestro estado inicial y estado actual, entonces cunado la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente
+Para construir el diagrama empezamos a partir de la tabla de transición que tenemos como dato, obervamos que en la primera fila significa nuestro estado inicial y estado actual, entonces cuando la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente:
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
 
