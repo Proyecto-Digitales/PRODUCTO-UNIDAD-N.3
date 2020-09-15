@@ -258,7 +258,7 @@ Link: https://www.tinkercad.com/things/7gmmgvcxDMV-maquina-de-estado
 
 9.APORTACIONES
 
-Para nuestra aportación, se realizó la imlpementación en tinkercad de un ejemplo sencillo de máquina de estado que hacer cambiar de color a un led, mediante un arduino.
+Para nuestra aportación, diseñaremos un circuito secuencial para un led en el cual se pueda visualizar 3 colores distintos, uno a la vez; adicional del estado apagado; estos estados de colores deben ser cambiados con un pulsador; ayudarse con un arduino y los diagramas de estado para su realización.
 
 Construimos nuestra de tabla de transición:
 
@@ -286,20 +286,23 @@ Simulación ejemplo
 
 10.CONCLUSIONES
 
-•	Las máquinas de estados son una ma.
+•	Los diagramas de estado es una manera sencilla para emular los cambios de movimiento entre estados de un circuito secuencial.
   
-•	Mientras más bits de código se quiera mostrar en displays, se requiere de un proceso más complicado, y en la vida real no existe integrados decodificadores de código binario a BCD.
+•	Con los diagramas de estado podemos analisar el movimiento de un objeto a travez de diverso estados a lo largo de su existencia.
 
-•	En la realización de la simulación se pudo ratificar el funcionamiento de nuestro circuito sumador – restador, de entrada, tenemos dos números de 8 bits, lo cual nos dará una salida de hasta 9 bits en la mayor suma que se puede realizar.
+•	El elemento de memoria de una máquina de estado contiene el valor de estado variable, cuando la máquina cuenta con los servicios, el estado variable es actualizado con el estado de la róxima etapa.  
 
+• La máquina de estado de moore puede notar que no importa cual sea el estado de entrada ya que la salida depende del estado actual contenido dentro del estado de memoria.
+
+• La máquina de estado de mealy su salida esta echa para depender de ambos, el estado actual y la entrada. 
 
 12.RECOMENDACIONES
 
-•	Debemos ser ordenados para armar el circuito para que si tenemos alguna falla podamos encontrar rápido el error.
+•	La representación de maquinas de estado se realiza mediante un diagrama de estado sin embargo tambien se puede utilizar un diagrama de flujo.
 
-•	Se recomienda no mezclar integrados de tecnología TTL con tecnología Cmos ya que sus diseños admiten diferentes valores de voltajes y corriente, en este diseño de lo realizo debido a la escasez de modelos de integrados en la plataforma de Tinkercad. 
+•	Se recomienda utilizar herramientas como creatly para el diseño de diagramas de estado. 
 
-•	Se recomienda tener conocimientos previos sobre circuitos sumadores y sus tablas de verdad, en conjunto con el datasheet de cada elemento que se usa en el circuito. 
+•	Se recomienda tener conocimientos previos sobre diagramas de estado y circuitos secenciales. 
 
 •	Es preciso planificar un cronograma con diagramas de Grant en las diferentes aplicaciones que existen y para el desarrollo se recomienda el software Project. 
 
