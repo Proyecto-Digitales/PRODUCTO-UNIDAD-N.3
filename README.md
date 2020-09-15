@@ -14,9 +14,9 @@ Objetivo general
 
 Objetivo específicos
 
--Investigar sobre circuitos secuenciales que se puedan implementar por medio de máquinas de estado.
+- Investigar sobre circuitos secuenciales que se puedan implementar por medio de máquinas de estado.
 
--Desarrollar el diseño de las máquinas de estado mediante grafos.
+- Desarrollar el diseño de las máquinas de estado mediante grafos.
 
 
 3.ESTADO DEL ARTE
