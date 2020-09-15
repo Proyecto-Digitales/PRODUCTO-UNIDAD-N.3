@@ -53,19 +53,17 @@ Figura 1. Marco teórico
 
 Diagrama. Ejercicio 1  
 
-diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.2.jpeg)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.2.jpeg)
 
 Diagrama Ejercicio 2
+
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%205.PNG)
 
-Diagrama. Ejercicio 3
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.4.jpeg)
-
 Diagrama de estados. Ejercicio 4
+
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.5.jpeg)
 
 Diagrama de estados. Ejercicio 5
-
 
 
 6.LISTA DE COMPONENTE
@@ -173,6 +171,11 @@ Tomamos en cuenta la entraga de las bebidas con la siguiente tabla
 
 Tabla 5. Ejercicio 4
 
+Entonces nuestra tabla de transición queda de la siguiente forma:
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Tabla%20con%20bebidas.PNG)
+
+
 5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
 
 a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
@@ -225,7 +228,7 @@ Todas estas variables van a depender de si tienen restricciones previas.
 
 Realizamos la tabla de cambio de estados:
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Tabla%201%20maquina%202.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Tabla%20final.PNG)
 
 
 Tabla 6. Ejercicio 5
