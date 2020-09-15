@@ -1,4 +1,4 @@
-                                                      DIAGRAMAS DE MÁQUINAS DE ESTADO
+                                                      **DIAGRAMAS DE MÁQUINAS DE ESTADO
 
 
 1.PLANTEAMIENTO DEL PROBLEMA
@@ -72,7 +72,8 @@ Falta
 1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado s0, 
 calcula la salida para la cadena de entrada 1000110.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%201.PNG)   
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%201.PNG) 
+
 Tabla 1. Ejercicio 1
 
 Desarrollo:
@@ -83,12 +84,14 @@ nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta
 Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente:
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
+
 Diagrama. Ejercicio 1  
 
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. 
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%203.PNG)
+
 Tabla 2. Ejercicio 2
 
 Desarrollo:
@@ -99,11 +102,13 @@ pasa de S0 a S3 ya que cuando toma el valor de B obtiene este estado, se toma en
 Y nos queda el siguiente diagrama.
 
 diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.2.jpeg)
+
 Diagrama Ejercicio 2
 
 3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%205.PNG)
+
 Diagrama. Ejercicio 3
 
 Para construir la tabla, primero observamos el estado de inicio que es S0, el cual representa a nuestro primer estado, 
@@ -111,7 +116,8 @@ luego lo colocamos en el primera fila y columna de nuestra tabla de de estados. 
 Para el caso de los estados actuales tomamos en cuenta los valores que se encuentran en el medio de las flechas, ya que representan nuestros estados actuales. 
 Y nuestra tabla nos queda de la siguiente forma:
 
-tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%207.PNG)
+
 Tabla 3. Ejercicio 3
 
 
@@ -119,20 +125,41 @@ Tabla 3. Ejercicio 3
 La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. 
 Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).
 
-Realizamos una tabla para obtener uestras variables que son las 3 diferentes monedas que podemos ingresar a la máquina:
+
+Realizamos una tabla para obtener nuestras variables que son las 3 diferentes monedas que podemos ingresar a la máquina.
 Entonces asignamos variables a los diferentes valores en binario de la tabla anterior:
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%20maquina%201.PNG)
+
+Tabla 4. Ejercicio 4
+
 B: cero centavos en binario (000)
 C: 5 centavos en binario (001)
 D: 10 centavos en binario (010)
 E: 15 centavos en binario (011)
 F:20 centavos en binario (100)
 G: Para más de 25 Ctvs
+
 Ahora en nuestras salidas si D está encendido habrá cambio para el usuarion en centimos, y si D está apagado no abrá cambió.
 También si C está encendido habrá bebida, y si C está apagado no abrá bebida.
 Ahora procedemos a realizar la tabla de transición con nuestros estados de transición y de salida.
 
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Tabla%20maquina%201.PNG)
+
+Tabla 5. Ejercicio 4
+
+Realizamos nuestro diagrama de estados:
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.4.jpeg)
+
+Diagrama de estados. Ejercicio 4
+
 Tomamos en cuenta la entraga de las bebidas con la siguiente tabla
 
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Tabla%20%202%20maquina%201.PNG)
+
+
+**Tabla 5. Ejercicio 4
 
 5. Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
 a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
