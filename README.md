@@ -1,22 +1,22 @@
-                                                    DIAGRAMAS DE MÁQUINAS DE ESTADO
+                                                    MÁQUINAS DE ESTADO
 
 
 1.PLANTEAMIENTO DEL PROBLEMA
 
 Se denomina máquina de estados a un modelo de comportamiento de un sistema con entradas y salidas en donde las salidas dependen 
-no solo de las señales de entradas actuales, sino también de las anteriores. Tienes diversas aplicaciones en las que se puede utilizar como por ejemplo la realización de circuitos secuenciales. Para nuestro caso utilizaremos este método para resolver diversos problemas planteados.
+no solo de las señales de entradas actuales, sino también de las anteriores. Tienes diversas aplicaciones en las que se puede utilizar como por ejemplo en el diseño de circuitos secuenciales. Para nuestro caso utilizaremos diagramas de estado para resolver diversos problemas planteados.
 
 2.OBJETIVOS
 
 Objetivo general
 
-- Diseñar diagramas y tablas de de estado a partir de los datos propuestos en los ejerciciosos.
+- Diseñar diagramas y tablas de de estado a partir de los datos propuestos en los ejercicios.
 
 Objetivo específicos
 
 - Investigar sobre circuitos secuenciales que se puedan implementar por medio de máquinas de estado.
 
-- Desarrollar el diseño de las máquinas de estado mediante grafos.
+- Desarrollar el diseño de las máquinas de estado mediante diagramas y tablas de estado.
 
 
 3.ESTADO DEL ARTE
@@ -101,7 +101,7 @@ Tabla 2. Ejercicio 2
 Desarrollo:
 
 Como en el primer enunciado partimos del estado (S0) que es nuestro estado inicial. Para el siguiente estado que toma la maquina cuando toma el valor 
-de a, en este caso S0, se genera una transición y colocamos la entrada y su correspondiente salida. Seguimos con el siguiente estado, deonde la maquina 
+de a, en este caso S0, se genera una transición y colocamos la entrada y su correspondiente salida. Seguimos con el siguiente estado, deonde la máquina 
 pasa de S0 a S3 ya que cuando toma el valor de B obtiene este estado, se toma en cuenta la transición y se realiza el mismo procedimiento para los demas estados. 
 Y nos queda el siguiente diagrama.
 
@@ -138,15 +138,20 @@ Entonces asignamos variables a los diferentes valores en binario de la tabla ant
 Tabla 4. Ejercicio 4
 
 B: cero centavos en binario (000)
+
 C: 5 centavos en binario (001)
+
 D: 10 centavos en binario (010)
+
 E: 15 centavos en binario (011)
+
 F:20 centavos en binario (100)
+
 G: Para más de 25 Ctvs
 
 Ahora en nuestras salidas si D está encendido habrá cambio para el usuarion en centimos, y si D está apagado no abrá cambió.
 También si C está encendido habrá bebida, y si C está apagado no abrá bebida.
-Ahora procedemos a realizar la tabla de transición con nuestros estados de transición y de salida.
+Ahora procedemos a realizar la tabla de estados con nuestros estados de transición y de salida.
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Tabla%20maquina%201.PNG)
 
@@ -288,7 +293,7 @@ Simulación ejemplo
 
 •	Los diagramas de estado es una manera sencilla para emular los cambios de movimiento entre estados de un circuito secuencial.
   
-•	Con los diagramas de estado podemos analisar el movimiento de un objeto a travez de diverso estados a lo largo de su existencia.
+•	Con los diagramas de estado podemos analizar el movimiento de un objeto a travez de diversos estados a lo largo de su existencia.
 
 •	El elemento de memoria de una máquina de estado contiene el valor de estado variable, cuando la máquina cuenta con los servicios, el estado variable es actualizado con el estado de la róxima etapa.  
 
