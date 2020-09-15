@@ -59,7 +59,7 @@ Diagrama. Ejercicio 1
 
 Diagrama Ejercicio 2
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%205.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.4.jpeg)
 
 Diagrama de estados. Ejercicio 4
 
@@ -67,11 +67,6 @@ Diagrama de estados. Ejercicio 4
 
 Diagrama de estados. Ejercicio 5
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.5.jpeg)
-
-Diagrama de estados. Ejercicio 5
-
-Diagrama de estado
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%205.jpeg)
 
