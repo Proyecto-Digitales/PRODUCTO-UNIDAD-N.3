@@ -1,4 +1,4 @@
-                                                          DIAGRAMAS DE MÁQUINAS DE ESTADO
+                                                        DIAGRAMAS DE MÁQUINAS DE ESTADO
 
 
 1.PLANTEAMIENTO DEL PROBLEMA
@@ -66,6 +66,7 @@ Desarrollo:
 Para construir el diagrama empezamos a partir de la tabla de transición que tenemos como dato, obervamos que en la primera fila significa nuestro estado inicial y estado actual, entonces cuando la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente:
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
+
 
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
