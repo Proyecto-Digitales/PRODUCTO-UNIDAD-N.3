@@ -21,9 +21,22 @@ Objetivo específicos
 
 3.ESTADO DEL ARTE
 
-En 2017 SANTIAGO GONZALEZ de la UNIDAD ACADÉMICA SANTIAGO DE CHILE DE INGENIERÍA EN CIENCIAS ECONOMICAS diseño la propia tienda On-Line tenga un carácter comercial para la empresa que vende los productos, y no sólo como un lugar donde realizar compras. Para ello, se tomaron decisiones como la de incluir información general de la empresa en las pantallas iniciales, inclusión de banner en la página, permitir que cualquier usuario pudiera navegar por el catálogo y los productos, pedir información sobre ellos, etc. Además, el hecho de registrarse en la web tendría otros añadidos para los usuarios aparte del propio de poder comprar como serían la descarga del catálogo completo o de partes de él en un formato fácilmente portable como es el PDF con la utilización de diagramas de estado (SANTIAGO GONZALEZ, 2017, p.1) [1].
+En 2017 SANTIAGO GONZALEZ de la UNIDAD ACADÉMICA SANTIAGO DE CHILE DE INGENIERÍA EN CIENCIAS ECONOMICAS diseño la propia tienda On-Line tenga un 
+carácter comercial para la empresa que vende los productos, y no sólo como un lugar donde realizar compras. Para ello, se tomaron decisiones como 
+la de incluir información general de la empresa en las pantallas iniciales, inclusión de banner en la página, permitir que cualquier usuario pudiera 
+navegar por el catálogo y los productos, pedir información sobre ellos, etc. Además, el hecho de registrarse en la web tendría otros añadidos para los 
+usuarios aparte del propio de poder comprar como serían la descarga del catálogo completo o de partes de él en un formato fácilmente portable como es 
+el PDF con la utilización de diagramas de estado (SANTIAGO GONZALEZ, 2017, p.1) [1].
 
-En 2018 WILSON BALDEÓN Y VERONICA MORA de la ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO ubicado en Riobamba-Ecuador diseño un circuito secuencial sincrónico con los latch básicos, los latch asincrónicos y los ÁLSÁRSV, que son los elementos fundamentales a partir de los cuales se construyen máquinas secuenciales sincrónicas, el siguiente paso es el estudio de las técnicas de análisis y diseño de máquinas o circuitos secuenciales sincrónicos y asincrónicos. Una máquina secuencial, en general, se caracteriza porque los valores que se encuentran presentes en sus salidas, en algún instante, dependen no solamente de los valores que se encuentran presentes en sus entradas en ese instante, sino también, de todos los valores que estuvieron en esas entradas, es decir, de la historia pasada de esas entradas, valga la redundancia. Una máquina se llama secuencial porque, tiene que pasar, paso a paso, por un conjunto de estados. Si el paso de un estado a otro esta sincronizado por una señal de reloj, la máquina se llama secuencial sincrónica. Si la máquina no tiene una señal que sincronice los cambios de estado sino más bien los cambios de estado son realizados en el instante que alguna de sus señales de entrada ha cambiado, la máquina se llama secuencial asincrónica.  (WILSON BALDEÓN Y VERONICA MORA, 2018, p.1) [2].
+En 2018 WILSON BALDEÓN Y VERONICA MORA de la ESCUELA SUPERIOR POLITECNICA DE CHIMBORAZO ubicado en Riobamba-Ecuador diseño un circuito secuencial sincrónico 
+con los latch básicos, los latch asincrónicos y los ÁLSÁRSV, que son los elementos fundamentales a partir de los cuales se construyen máquinas secuenciales 
+sincrónicas, el siguiente paso es el estudio de las técnicas de análisis y diseño de máquinas o circuitos secuenciales sincrónicos y asincrónicos. Una máquina
+secuencial, en general, se caracteriza porque los valores que se encuentran presentes en sus salidas, en algún instante, dependen no solamente de los valores que 
+se encuentran presentes en sus entradas en ese instante, sino también, de todos los valores que estuvieron en esas entradas, es decir, de la historia pasada de esas
+entradas, valga la redundancia. Una máquina se llama secuencial porque, tiene que pasar, paso a paso, por un conjunto de estados. Si el paso de un estado a otro esta
+sincronizado por una señal de reloj, la máquina se llama secuencial sincrónica. Si la máquina no tiene una señal que sincronice los cambios de estado sino más bien los 
+cambios de estado son realizados en el instante que alguna de sus señales de entrada ha cambiado, la máquina se llama secuencial asincrónica.  (WILSON BALDEÓN Y VERONICA 
+MORA, 2018, p.1) [2].
 
 
 4.MARCO TEÓRICO
@@ -56,46 +69,62 @@ Falta
 
 8.EXPLICACIÓN DEL DISEÑO
 
-1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado s0, calcula la salida para la cadena de entrada 1000110.
+1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado s0, 
+calcula la salida para la cadena de entrada 1000110.
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%201.PNG)   
 Tabla 1. Ejercicio 1
 
 Desarrollo:
 
-Para construir el diagrama empezamos a partir de la tabla de transición que tenemos como dato, obervamos que en la primera fila significa nuestro estado inicial y estado actual, entonces cuando la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente:
+Para construir el diagrama empezamos a partir de la tabla de transición que tenemos como dato, obervamos que en la primera fila significa 
+nuestro estado inicial y estado actual, entonces cuando la máquina toma el valor de 0 pasa al siguiente estado obteniendo en su salida 1 que 
+nos da el valor de S0. Ahora seguimos con el siguiente estado teniendo en cuenta que nuestro estado actual se encuentra con el valor valor de 1. 
+Mediante esta mecánica seguimos con los siguientes estados para construir nuestro diagrama, que es el siguiente:
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.1.jpeg)
+Diagrama. Ejercicio 1  
 
-
-2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
+2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. 
+Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%203.PNG)
+Tabla 2. Ejercicio 2
 
 Desarrollo:
 
 Como en el primer enunciado partimos del estado (S0) que es nuestro estado inicial. Para el siguiente estado que toma la maquina cuando toma el valor 
 de a, en este caso S0, se genera una transición y colocamos la entrada y su correspondiente salida. Seguimos con el siguiente estado, deonde la maquina 
-pasa de S0 a S3 ya que cuando toma el valor de B obtiene este estado, se toma en cuenta la transición y se realiza el mismo procedimiento para los demas estados. Y nos queda el siguiente diagrama.
+pasa de S0 a S3 ya que cuando toma el valor de B obtiene este estado, se toma en cuenta la transición y se realiza el mismo procedimiento para los demas estados. 
+Y nos queda el siguiente diagrama.
 
 diagrama ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3.2.jpeg)
+Diagrama Ejercicio 2
 
 3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%205.PNG)
+Diagrama. Ejercicio 3
 
-Para construir la tablea, primero observamos el estado de inicio que es S0, el cual representa a nuestro primer estado, luego colocamos en el primera fila y columna de nuestra tabla de de estados. Ahora tomamos en cuenta el camino que nos presentan las flechas de entrada y salida. Para el caso de los estados actuales tomamos en cuenta los valores que se encuentran en el medio de las flechas, ya que representan nuestros estados actuales. Y nuestra tabla nos queda de la siguiente forma:
+Para construir la tabla, primero observamos el estado de inicio que es S0, el cual representa a nuestro primer estado, 
+luego lo colocamos en el primera fila y columna de nuestra tabla de de estados. Ahora tomamos en cuenta el camino que nos presentan las flechas de entrada y salida. 
+Para el caso de los estados actuales tomamos en cuenta los valores que se encuentran en el medio de las flechas, ya que representan nuestros estados actuales. 
+Y nuestra tabla nos queda de la siguiente forma:
 
 tabla ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Diagrama%20electrico.png)
+Tabla 3. Ejercicio 3
 
-4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).
 
-Realizamos una tablar para obtener uestras variables que son las 3 diferentes monedas que podemos ingresar a la máquina:
+4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos.
+La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. 
+Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).
+
+Realizamos una tabla para obtener uestras variables que son las 3 diferentes monedas que podemos ingresar a la máquina:
 Entonces asignamos variables a los diferentes valores en binario de la tabla anterior:
 B: cero centavos en binario (000)
 C: 5 centavos en binario (001)
 D: 10 centavos en binario (010)
-E: 15 centavos en binario (010)
+E: 15 centavos en binario (011)
 F:20 centavos en binario (100)
 G: Para más de 25 Ctvs
 Ahora en nuestras salidas si D está encendido habrá cambio para el usuarion en centimos, y si D está apagado no abrá cambió.
