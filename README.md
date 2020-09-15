@@ -19,7 +19,7 @@ Objetivo específicos
 - Desarrollar el diseño de las máquinas de estado mediante grafos.
 
 
-*3.ESTADO DEL ARTE
+3.ESTADO DEL ARTE
 
 En 2017 SANTIAGO GONZALEZ de la UNIDAD ACADÉMICA SANTIAGO DE CHILE DE INGENIERÍA EN CIENCIAS ECONOMICAS diseño la propia tienda On-Line tenga un 
 carácter comercial para la empresa que vende los productos, y no sólo como un lugar donde realizar compras. Para ello, se tomaron decisiones como 
@@ -71,13 +71,7 @@ Diagrama de estados. Ejercicio 5
 - Diseñador de diagramas online creatly
 
 
-7.MAPA DE VARIABLES
-
-
-Falta 
-
-
-8.EXPLICACIÓN DEL DISEÑO
+7.EXPLICACIÓN DEL DISEÑO
 
 1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado s0, 
 calcula la salida para la cadena de entrada 1000110.
@@ -243,7 +237,7 @@ Diagrama de estados. Ejercicio 5
 
 
                  
-9.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+8.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 En este informe se ocupó la herramienta creately, que tiene la siguiente interfaz: 
 
@@ -262,37 +256,37 @@ Para la aportacion ingresamos al siguiente link, en el que se debe tener ya una 
 
 Link: https://www.tinkercad.com/things/7gmmgvcxDMV-maquina-de-estado
 
-10.APORTACIONES
+9.APORTACIONES
 
 Para nuestra aportación, se realizó la imlpementación en tinkercad de un ejemplo sencillo de máquina de estado que hacer cambiar de color a un led, mediante un arduino.
 
+Construimos nuestra de tabla de transición:
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%206.jpeg)
+
+Diagrama de estado
+
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%205.jpeg)
 
-Diagrama de estado 
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%204.jpeg)
-
-Simulacion en tinkercad
+Código del programa para el arduino
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%203.jpeg)
 
-Código del programa 
-
+ 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%202.jpeg)
-
-código del programa
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%201.jpeg)
 
 Salidas finales que se obtendrán en los cambios de estado.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%20simulaci%C3%B3n.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%201.jpeg)
 
 Simulación ejemplo
 
-11.CONCLUSIONES
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%20simulaci%C3%B3n.PNG)
 
-•	La implementación del circuito Sumador/Restador nos ayudó a comprender no solo el funcionamiento de los integrados sumadores como el 74HC283, ya que también observamos como mediante   el   uso   de   los   elementos   MSI   podemos   llevar   a   cabo   procesos   más complejos de una forma más rápida y sencilla que al utilizar elementos SSI. Es por ello que se utilizó multiplexores y comparadores que nos ayudaron a reducir el tamaña del circuito.
+
+10.CONCLUSIONES
+
+•	Las máquinas de estados son una ma.
   
 •	Mientras más bits de código se quiera mostrar en displays, se requiere de un proceso más complicado, y en la vida real no existe integrados decodificadores de código binario a BCD.
 
