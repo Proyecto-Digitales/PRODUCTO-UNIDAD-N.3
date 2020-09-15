@@ -256,15 +256,39 @@ Como se observa primero hay que registrarse para poder comenzar a diseñar diagr
 
 Ya podemos comenzar a diseñar. 
 
+Para la aportacion ingresamos al siguiente link, en el que se debe tener ya una cuenta registrada, y así podremos simular la aportación:
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aportacion%20pagina.PNG)
+
+Link: https://www.tinkercad.com/things/7gmmgvcxDMV-maquina-de-estado
 
 10.APORTACIONES
 
+Para nuestra aportación, se realizó la imlpementación en tinkercad de un ejemplo sencillo de máquina de estado que hacer cambiar de color a un led, mediante un arduino.
 
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%205.jpeg)
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/Conf%202.PNG)
+Diagrama de estado 
 
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%204.jpeg)
 
+Simulacion en tinkercad
 
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%203.jpeg)
+
+Código del programa 
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%202.jpeg)
+
+código del programa
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%201.jpeg)
+
+Salidas finales que se obtendrán en los cambios de estado.
+
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%20simulaci%C3%B3n.PNG)
+
+Simulación ejemplo
 
 11.CONCLUSIONES
 
@@ -301,25 +325,6 @@ Floyd, T. (2006). Fundamentos de sistemas digitales. Madrid: Pearson.
 Siliceo, R. (2018). Maquinas de estadp, diseño de grafos. Ciudad de Mexico.
 
 
-15.ANEXOS
 
-15.1 MANUAL DE USUARIO
-
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/manual%201.PNG)
-
-
-
-https://es.convertbinary.com/numeros/
-
-
-
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.2/blob/master/Img/manual%202.PNG)
-
-
-
-
-
-15.2 HOJAS TÉCNICAS
 
 
