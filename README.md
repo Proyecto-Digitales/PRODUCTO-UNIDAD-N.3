@@ -1,4 +1,4 @@
-                                                      **DIAGRAMAS DE MÁQUINAS DE ESTADO** 
+                                                      >DIAGRAMAS DE MÁQUINAS DE ESTADO
 
 
 ** 1.PLANTEAMIENTO DEL PROBLEMA **
