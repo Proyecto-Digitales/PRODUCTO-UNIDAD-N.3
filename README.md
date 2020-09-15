@@ -109,7 +109,7 @@ Tabla ejemplo
 2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. 
 Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.
 
-![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/ultima%20tabla.PNG)
+![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/3%20Dise%C3%B1o%201.PNG)
 
 Tabla 2. Ejercicio 2
 
