@@ -70,7 +70,7 @@ Diagrama de estados. Ejercicio 5
 
 ![alt text](https://github.com/Proyecto-Digitales/PRODUCTO-UNIDAD-N.3/blob/master/Img/Aporte%205.jpeg)
 
-Código del programa para el arduino
+Diagrama de estado - aporte
 
 
 6.LISTA DE COMPONENTE
